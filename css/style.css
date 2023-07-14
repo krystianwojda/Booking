@@ -177,3 +177,12 @@ body {
   .gallery__photo {
     width: 100%;
     display: block; }
+
+.overview {
+  display: flex; }
+  .overview__stars {
+    flex: 1; }
+  .overview__icon-star, .overview__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: #eb2f64; }
