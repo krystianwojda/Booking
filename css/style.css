@@ -31,7 +31,7 @@ body {
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: #f4f2f2;
+  border-bottom: 1px solid #f4f2f2;
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -48,7 +48,24 @@ body {
 
 .hotel-view {
   flex: 1;
-  height: 80rem; }
+  background-color: #faf9f9;
+  border-bottom: 1px solid #f4f2f2; }
+
+.detail {
+  display: flex;
+  padding: 4.5rem; }
+
+.description {
+  font-size: 1.4rem;
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+  padding: 3rem;
+  flex: 0 0 60%;
+  margin-right: 4.5rem; }
+
+.user-reviews {
+  background-color: yellowgreen;
+  flex: 1; }
 
 .logo {
   height: 3.25rem;
